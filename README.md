@@ -223,37 +223,6 @@ Configurações TypeScript com:
 }
 ```
 
-## 📚 Documentação
-
-### Guidelines de Desenvolvimento
-Consulte a pasta `guidelines/` para:
-
-- **ARCHITECTURE.md** - Padrões e estrutura da arquitetura
-- **CODE_STYLE.md** - Convenções de código e formatação
-- **COMPONENTS.md** - Guia de componentes e best practices
-
-### Usar Componentes Existentes
-
-```typescript
-import { Button } from "@/components/Button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/Card"
-import { Input } from "@/components/Input"
-
-export function MyComponent() {
-  return (
-    <Card>
-      <CardHeader>
-        <CardTitle>Meu Componente</CardTitle>
-      </CardHeader>
-      <CardContent>
-        <Input placeholder="Digite aqui..." />
-        <Button>Enviar</Button>
-      </CardContent>
-    </Card>
-  )
-}
-```
-
 ## 🎯 Melhores Práticas
 
 ### TypeScript
